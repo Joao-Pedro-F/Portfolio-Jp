@@ -94,12 +94,20 @@
     }
 
     .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
       font-family: "Fraunces", serif;
       font-size: 1.3rem;
       font-weight: 700;
       color: var(--dark);
       text-decoration: none;
       letter-spacing: 0.3px;
+    }
+
+    .brand-logo {
+      width: 26px;
+      height: 26px;
     }
 
     .brand span {
